@@ -1,0 +1,28 @@
+{
+  "name": "awesome-kitties",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "npm run build && next export",
+    "postbuild": "node scripts/copy-config.js",
+    "serve": "npm run build && npx serve@latest out",
+    "serve:dev": "npx serve@latest out"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "next": "^15.4.5",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-react": "^7.27.1",
+    "frontmatter-markdown-loader": "^3.7.0"
+  }
+}
