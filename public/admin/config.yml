@@ -30,6 +30,28 @@ collections:
         name: "headerDetails"
         file: "content/header.md"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Description", name: "description", widget: "string" }
-          - { label: "Body", name: "body", widget: "markdown" }
+          - label: "Title"
+            name: "title"
+            widget: "string" 
+          - label: "Description"
+            name: "description"
+            widget: "string" 
+          - label: "Body"
+            name: "body"
+            widget: "markdown" 
+  - name: "footer"
+    label: "Footer"
+    files:
+      - label: "Footer Details"
+        name: "footerDetails"
+        file: "content/footer.md"
+        fields:
+          - label: "Title"
+            name: "title"
+            widget: "string" 
+          - label: "Description"
+            name: "description"
+            widget: "string" 
+          - label: "Body"
+            name: "body"
+            widget: "markdown"
